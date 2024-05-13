@@ -6,7 +6,7 @@
 
 ```bash
 accelerate launch ./sft_llama2.py \
-    --output_dir="./sft" \
+    --output_dir="./sft_tinyllama" \
     --max_steps=500 \
     --logging_steps=10 \
     --save_steps=10 \
